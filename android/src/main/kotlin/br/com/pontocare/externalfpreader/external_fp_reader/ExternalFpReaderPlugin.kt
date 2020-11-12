@@ -5,6 +5,7 @@ import android.content.Context
 import androidx.annotation.NonNull
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
+import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
@@ -44,7 +45,7 @@ class ExternalFpReaderPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
           if (status == Status.SUCCESS) {
             result.success(msg.data.getByteArray("img"));
           } else {
-            result.error(msg.data.getString("errorMessage"))
+            result.error("1", msg.data.getString("errorMessage"), {})
           }
         }
       }
@@ -60,6 +61,14 @@ class ExternalFpReaderPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
     activity = binding.activity;
+  }
+
+  override fun onDetachedFromActivityForConfigChanges() {}
+
+  override fun onDetachedFromActivity() {}
+
+  override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
+    activity = binding.activity
   }
 
 }
