@@ -3,27 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="018cbcc5-71a7-4ffe-b558-dedb340e6464" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/external_fp_reader.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/external_fp_reader.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/external_fp_reader_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/external_fp_reader_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ten_API_29" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
   </component>
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
@@ -31,13 +19,16 @@
   <component name="ProjectId" id="1kAH5TSVVL4s6ugcxCts4swJPGb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -52,5 +43,15 @@
       <updated>1605136292972</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="159" width="1022" height="737" key="SettingsEditor" timestamp="1611093842236">
+      <screen x="0" y="27" width="1920" height="995" />
+    </state>
+    <state x="449" y="159" width="1022" height="737" key="SettingsEditor/0.27.1920.995/1920.0.1920.1080@0.27.1920.995" timestamp="1611093842236" />
+    <state x="623" y="244" key="search.everywhere.popup" timestamp="1611093862837">
+      <screen x="0" y="27" width="1920" height="995" />
+    </state>
+    <state x="623" y="244" key="search.everywhere.popup/0.27.1920.995/1920.0.1920.1080@0.27.1920.995" timestamp="1611093862837" />
   </component>
 </project>
